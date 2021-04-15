@@ -1,0 +1,20 @@
+.dashboard {
+  padding-bottom: 5%;
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.dashboard > div {
+  font-size: 300%;
+  color: #6ccacb;
+  max-width: 40%;
+  height: fit-content;
+  height: auto;
+}
+.dashboard > div > p {
+  color: lightgray;
+  font-size: 50%;
+}

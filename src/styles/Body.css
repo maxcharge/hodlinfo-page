@@ -1,0 +1,17 @@
+.body {
+  width: 100vw;
+  height: auto;
+}
+.body__img {
+  width: 100vw;
+}
+.body__img > img {
+  width: inherit;
+  object-fit: inherit;
+}
+.body__list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
