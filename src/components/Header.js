@@ -16,25 +16,27 @@ function Header() {
             </div>
             
             <div className="header__mid">
-                <div className="header__mid__btn1">
-                <form>
-                  <select id="country" name="country">
-                  <option value="au">INR</option>
-                  </select>
-                </form>
-                </div>
-                <div className="header__mid__btn2">
-                <form>
-                  <select id="country" name="country">
-                  <option value="au">BTC</option>
-                  <option value="ca">ETH</option>
-                  <option value="usa">USDT</option>
-                  </select>
-                </form>
-                </div>
-                <div className="header__mid__btn3">
-                  Buy XRP
-                </div>
+              <div>
+                  <div className="header__mid__btn1">
+                  <form>
+                    <select id="country" name="country">
+                    <option value="au">INR</option>
+                    </select>
+                  </form>
+                  </div>
+                  <div className="header__mid__btn2">
+                  <form>
+                    <select id="country" name="country">
+                    <option value="au">BTC</option>
+                    <option value="ca">ETH</option>
+                    <option value="usa">USDT</option>
+                    </select>
+                  </form>
+                  </div>
+                  <div className="header__mid__btn3">
+                    Buy XRP
+                  </div>
+              </div>
             </div>
 
             <div className="header__right">

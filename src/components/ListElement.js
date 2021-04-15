@@ -16,6 +16,8 @@ function ListElement({sr,p,ltp,bsp,diff,sav}) {
             flexDirection:"row",
             margin:"10px",
             justifyContent:"space-evenly",
+            height:"fit-content",
+            padding:"10px",
             width:"100%",
             backgroundColor:"#f8f9fa",
             borderRadius:"5px",

@@ -20,33 +20,30 @@
   left: 0;
 }
 .header__left > img {
-  margin-left: 5%;
-  margin-top: 5%;
+  margin-left: 3%;
+  margin-top: 3%;
   object-fit: inherit;
   width: 60%;
   height: 60%;
 }
 
 .header__mid {
-  display: flex;
+  flex: 33%;
   justify-content: space-evenly;
   margin: auto;
-  flex: 33%;
-  display: flex;
-  flex-direction: unset;
+  flex-direction: row;
 }
 .header__mid > div {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  width: fit-content;
   padding: 2px;
 }
 
 .header__mid__btn2 {
-  height: 40px;
-  width: 120px;
-  padding: 10px;
+  width: fit-content;
+  height: fit-content;
+  padding: 2%;
   outline: none;
   color: black;
   background-color: #f8f9fa;
@@ -58,14 +55,14 @@
   background: transparent;
   outline: none;
   border: none;
-  font-size: 20px;
+  font-size: 15px;
   padding: 6px;
 }
 
 .header__mid__btn1 {
-  height: 40px;
-  width: 120px;
-  padding: 10px;
+  width: fit-content;
+  height: fit-content;
+  padding: 2%;
   outline: none;
   color: black;
   background-color: #f8f9fa;
@@ -77,14 +74,17 @@
   background: transparent;
   outline: none;
   border: none;
-  font-size: 20px;
+  font-size: 15px;
   padding: 6px;
 }
 
 .header__mid__btn3 {
-  height: 40px;
-  width: 120px;
-  font-size: 20px;
+  width: fit-content;
+  height: fit-content;
+  padding: 3.7%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 15px;
   align-items: center;
   outline: none;
   color: black;
@@ -182,4 +182,28 @@ input:checked + .slider:before {
 TelegramIcon {
   margin-left: 10px;
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .header__left {
+    justify-content: space-around;
+  }
+  .header__mid > div {
+    flex-direction: column;
+  }
+  .header__mid__btn1 {
+    margin: 5px;
+  }
+  .header__mid__btn2 {
+    margin: 5px;
+  }
+  .header__mid__btn3 {
+    margin: 5px;
+  }
+  .header__right {
+  }
 }

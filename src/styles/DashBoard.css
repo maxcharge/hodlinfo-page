@@ -13,8 +13,15 @@
   max-width: 40%;
   height: fit-content;
   height: auto;
+  margin: 5px;
 }
 .dashboard > div > p {
   color: lightgray;
   font-size: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .dashboard > div {
+    font-size: 200%;
+  }
 }
